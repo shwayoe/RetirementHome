@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Lunaterra</h1>
+    <p class="lead">Senior Living Community in Myanmar</p>
+    <p>
+        Lunaterra is a senior living community where you’re not just a neighbor, you’re a friend. Where you take your sweetheart to Sunday brunch and maybe indulge in a little extra biscuits and gravy. And where smart folks from all over the country come to enjoy life in a whole new way.
+
+        We’re a lively community of fascinating people who are keeping their active lifestyle and making it even better. And as residents of the only retirement community in Yangon that offers Life Care, they can enjoy today even more because they know that the ‘what-ifs’ of tomorrow are taken care of. Sound like what you want out of retirement living? Well, you’ve found the right place.
+    </p>
+</div>
+
+<div class="dc"><h1>-------------------------------------</h1></div>
+
+<div class="gallery">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Services and Amenities</h2>
+            <img src="~/images/am.jpg" width="300" height="300" />
+            <p><a class="btn btn-default" href=@Url.Action("Service","Home")>Learn more &raquo; </a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Area Attraction</h2>
+            <img src="~/images/aa.jpg" width="300" height="300" />
+            <p><a class="btn btn-default" href=@Url.Action("Area","Home")>Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Dining</h2>
+            <img src="~/images/di.jpg" width="300" height="300" />
+            <p><a class="btn btn-default" href=@Url.Action("Dining","Home")>Learn more &raquo;</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="dc"><h1>-------------------------------------</h1></div>
+
+<div class="c2">
+    <div class="block b1">Wellness <br> <a href=@Url.Action("Wellness","Home")><img src="~/images/wellness.png" width="200" height="200"></a></div>
+  
+    <div class="block b2">Gallery<br><a href=@Url.Action("Gallery","Home")><img src="~/images/ga.png" width="200" height="200"></a></div>
+   
+    <div class="block b3">Location<br><a href=@Url.Action("Location","Home")><img src="~/images/location.png" width="200" height="200"></a></div>
+    
+    <div class="block b4">Health Services<br><a href=@Url.Action("Health","Home")><img src="~/images/medical.png" width="200" height="200"></a></div>
+</div>
+
+
